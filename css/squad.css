@@ -61,3 +61,8 @@
     font-weight: bold;
     margin-top: 5px;
 }
+@media (max-width:800px) {
+    .squad-full h3{
+        font-size: 3rem;
+    }
+}

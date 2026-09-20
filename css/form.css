@@ -113,3 +113,8 @@ form h2 {
 .btn:hover::before {
   width:100%;
 }
+@media (max-width:800px) {
+    .row-duo{
+      flex-direction: column;
+    } 
+}
