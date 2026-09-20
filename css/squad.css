@@ -1,0 +1,63 @@
+.squad {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+.squad-full{
+    position: relative;
+    width: 100%;
+}
+.squad-full h3{
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+     transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 6rem;
+    color: white;
+}
+.squad-full h3 span {
+    color: #a7c957;
+}
+.squad-full div{
+    width: 100%;
+    object-fit: cover;
+    background-color: #bc4749;
+
+}
+.squad-full div img {
+    width: 100%;
+    height: 500px;
+    opacity: 40%;
+    object-fit: cover;
+  
+}
+.equip-squad{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+}
+.equip-squad div {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.equip-squad div img{
+    width: 100%;
+     height: 400px;
+    object-fit: cover;
+}
+.equip-squad div span{
+    color: brown;
+    font-weight: bold;
+    margin-top: 5px;
+}

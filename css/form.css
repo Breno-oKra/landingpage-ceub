@@ -1,0 +1,115 @@
+.form-camp{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #bc4749;
+  padding: 2rem;
+}
+.form-camp h3 {
+  color: #fff;
+}
+form {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form h2 {
+  margin-top: 0;
+  margin-bottom: 24px;
+  color: #333333;
+  font-size: 24px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+.box label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #555555;
+  margin-bottom: 6px;
+}
+
+.box input, .box select {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  background-color: #ffffff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+.box select:focus {
+  border-color: #2980b9;
+  box-shadow: 0 0 0 3px rgba(41, 128, 185, 0.15);
+}
+.row-duo .state {
+  flex: 0 0 95px;
+}
+
+.box input:focus {
+  border-color: #a7c957;
+  box-shadow: 0 0 0 2px #a7c957;
+}
+
+
+.row-duo {
+  display: flex;
+  gap: 15px;
+}
+
+.row-duo .box {
+  flex: 1;
+}
+
+.row-duo .estado {
+  flex: 0 0 80px; 
+}
+
+
+.btn {
+  position: relative;
+  width: 100%;
+  padding: 14px;
+  background-color: #ffffff;
+  color: #a7c957;
+  border: 2px solid #a7c957;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+  transition: color 0.4s ease;
+  margin-top: 10px;
+}
+
+.btn::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #a7c957;
+  z-index: -1;
+  transition: width 1s ease;
+}
+
+.btn:hover {
+  color: #ffffff;
+}
+
+.btn:hover::before {
+  width:100%;
+}
